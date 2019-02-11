@@ -3,15 +3,19 @@ body {
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
-	opacity: 0.9;
 	text-align: center;
 }
+
 
 header {
 	padding: auto 10px;
 	position: fixed;
 	top: 0;
 	width: 100%;
+}
+
+header span {
+	text-decoration: underline;
 }
 
 #logo {
@@ -37,10 +41,17 @@ header {
 	width: 100%;
 }
 
+.featured-tea {
+	margin: auto;
+	width: 1000px;
+}
+
 .card-holder {
 	margin: auto;
 	display: flex;
 	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 
@@ -53,7 +64,6 @@ header {
 	background-image: url(../images/img-locations-background.jpg);
 	height: 500px;
 	width: 1200px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	margin: auto;
+
 }
