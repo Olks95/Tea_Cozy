@@ -3,7 +3,7 @@ body {
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
-	text-align: center;
+	opacity: 0.9;
 }
 
 
@@ -12,6 +12,7 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	background-color: black;
 }
 
 header span {
@@ -32,8 +33,6 @@ header span {
 	height: 700px;
 	width: 1200px;
 	margin: auto;
-	display: flex;
-	align-items: center;
 }
 
 .mission-text {
@@ -47,13 +46,16 @@ header span {
 }
 
 .card-holder {
-	margin: auto;
-	display: flex;
-	flex-flow: row wrap;
-	align-items: center;
-	justify-content: center;
+
 }
 
+.card-title {
+  
+}
+
+.card-content {
+
+}
 
 .tea-img {
 	height: 200px;
@@ -65,5 +67,15 @@ header span {
 	height: 500px;
 	width: 1200px;
 	margin: auto;
+}
 
+.locations .card-content {
+	background-color: black;
+	width: 300px;
+	margin: auto 20px;
+	opacity: 1;
+}
+
+.contact {
+	height: 200px;
 }
